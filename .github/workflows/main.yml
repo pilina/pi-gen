@@ -14,6 +14,6 @@ jobs:
       - uses: tgymnich/fork-sync@v1.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          owner: pilina
+          owner: RPi-Distro
           base: master
           head: master
